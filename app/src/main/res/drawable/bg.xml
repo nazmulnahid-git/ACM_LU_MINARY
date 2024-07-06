@@ -4,9 +4,9 @@
 
     <!-- Gradient background -->
     <gradient
-        android:startColor="#F5F5F5"
-        android:endColor="#D3D3D3"
-        android:angle="270" />
+        android:startColor="#F4C1B5"
+        android:endColor="#F5F5F5"
+        android:angle="180" />
 
     <!-- Adding rounded corners -->
     <corners android:radius="4dp" />

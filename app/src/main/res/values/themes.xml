@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.CpIsFun" parent="Base.Theme.CpIsFun" />
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item> <!-- White color -->
+    </style>
+
+
 </resources>
