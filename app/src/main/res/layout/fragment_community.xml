@@ -1,0 +1,86 @@
+<!-- res/layout/fragment_community.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="4dp"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:contentInsetEnd="0dp"
+        android:contentInsetRight="0dp">
+
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CPBook"
+            android:textSize="22sp"
+            android:textColor="#000000" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Main Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F5F5F5"
+        android:padding="16dp">
+
+        <!-- Welcome Text -->
+        <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <!-- EditText for posting -->
+            <EditText
+                android:id="@+id/postEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Write your post here"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:layout_gravity="center"
+                android:gravity="top"
+                android:layout_weight="2"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/postButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Post"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#2196F3"
+                android:onClick="onPostButtonClick"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+
+        <!-- List View for Community Posts -->
+        <ListView
+            android:id="@+id/communityListView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

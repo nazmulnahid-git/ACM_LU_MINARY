@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "490972269230",
+    "project_id": "cpisfun-15ee1",
+    "storage_bucket": "cpisfun-15ee1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490972269230:android:63e0ec8e9e18567608bb3f",
+        "android_client_info": {
+          "package_name": "com.example.cpisfun"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8xO71xiDJBXIfAa4sFqXfYM6poHhr2Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
