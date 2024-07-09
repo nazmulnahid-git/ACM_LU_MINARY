@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"
             android:text="Add"
             android:textColor="@android:color/white"
-            android:backgroundTint="#2196F3" />
+            android:backgroundTint="#FF5722" />
 
     </LinearLayout>
 </LinearLayout>
